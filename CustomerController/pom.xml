@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.scimat_plus.bibliometricwe.customermanager</groupId>
-	<artifactId>customer</artifactId>
+	<artifactId>CustomerController</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>customer</name>
 	<description>ApiRest to manage all customer</description>
