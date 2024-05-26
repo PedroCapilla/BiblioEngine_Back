@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AuxiliarRepoTask-master:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AuxiliarRepoTask_master_jar</output-path>
+    <root id="archive" name="AuxiliarRepoTask-master.jar">
+      <element id="module-output" name="AuxiliarRepoTask-master" />
+    </root>
+  </artifact>
+</component>

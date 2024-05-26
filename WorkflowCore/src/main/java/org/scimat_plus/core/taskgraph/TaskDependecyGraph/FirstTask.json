@@ -1,0 +1,79 @@
+{
+  "ROOT": {
+    "c1": {
+      "task": "const",
+      "value": "10.0"
+    },
+    "c2": {
+      "task": "const",
+      "value": "20.0"
+    },
+    "c3": {
+      "task": "const",
+      "value": "30.0"
+    },
+    "c4": {
+      "task": "const",
+      "value": "40.0"
+    }
+  },
+  "BRANCH": {
+    "s1": {
+      "task": "sum",
+      "args": {
+        "a": "c1",
+        "b": "c2"
+      }
+    },
+    "s2": {
+      "task": "sum",
+      "args": {
+        "a": "c3",
+        "b": "c4"
+      }
+    },
+    "s3": {
+      "task": "sum",
+      "args": {
+        "a": "c1",
+        "b": "c2"
+      }
+    },
+    "s4": {
+      "task": "sum",
+      "args": {
+        "a": "s3",
+        "b": "m2"
+      }
+    },
+    "s5": {
+      "task": "sum",
+      "args": {
+        "a": "m1",
+        "b": "s4"
+      }
+    },
+    "m1": {
+      "task": "mult",
+      "args": {
+        "a": "s1",
+        "b": "s2"
+      }
+    },
+    "m2": {
+      "task": "mult",
+      "args": {
+        "a": "c1",
+        "b": "c3"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "print",
+      "args": {
+        "a": "s5"
+      }
+    }
+  }
+}
