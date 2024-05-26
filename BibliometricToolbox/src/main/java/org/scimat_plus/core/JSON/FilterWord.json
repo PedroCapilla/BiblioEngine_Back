@@ -1,0 +1,31 @@
+{
+  "ROOT": {
+    "l1": {
+      "task": "load",
+      "value": "src/main/java/org/scimat_plus/core/parsed_LIS_2003-2022.csv"
+    }
+  },
+  "BRANCH": {
+    "f1": {
+      "task": "filter",
+      "params": {
+        "row": "Authors",
+        "keyword": "telemedicine"
+      },
+      "args": {
+        "a": "l1"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "printCsv",
+      "params": {
+        "size": "300"
+      },
+      "args": {
+        "a": "f1"
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ROOT": {
+    "l1": {
+      "task": "load",
+      "value": "src/main/java/org/scimat_plus/core/parsed_LIS_2003-2022.csv"
+    }
+  },
+  "BRANCH": {
+    "f1": {
+      "task": "filter",
+      "params": {
+        "row": "Authors",
+        "keyword": ""
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "f2": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Citations",
+        "type": "Sum"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "f3": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Citations",
+        "type": "Average"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "f4": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Citations",
+        "type": "Desviation"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "f5": {
+      "task": "hIndex",
+      "args": {
+        "a": "l1"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "saveInt",
+      "params": {
+        "description": "Suma"
+      },
+      "args": {
+        "a": "f2"
+      }
+    },
+    "p2": {
+      "task": "saveInt",
+      "params": {
+        "description": "Media"
+      },
+      "args": {
+        "a": "f3"
+      }
+    },
+    "p3": {
+      "task": "saveInt",
+      "params": {
+        "description": "Desviacion"
+      },
+      "args": {
+        "a": "f4"
+      }
+    },
+    "p4": {
+      "task": "saveInt",
+      "params": {
+        "description": "HIndex"
+      },
+      "args": {
+        "a": "f5"
+      }
+    }
+  }
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BibliometricToolbox:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1fbc2d5-1028-419a-90ce-844f237ce81d" name="Changes" comment="Filter per Filter task returning arrays">
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/PrintIntegerTaskConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/SaveDatasetTaskConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/SaveIntTaskConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Executor/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/ArithmeticTask.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/BetweenFilter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/CreateUnitByUnitTask.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/FilterPerFilter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/FilterWord.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/GreaterThan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/HIndex.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/PivotTable.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/UnionJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/JSON/finalJson.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/PrintIntegerTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/SaveDatasetTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/SaveIntTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowExecutorWorker/src/main/java/org/scimat_plus/bibliometicwe/executorWorker/MongoDBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowExecutorWorker/src/main/java/org/scimat_plus/bibliometicwe/executorWorker/parsed_LIS_2003-2022.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/controller/ResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/models/TaskNumResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/repository/TaskNumResultRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/service/ServiceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/service/TaskResultService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/exception/CustomerErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/model/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/model/ProjectDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer/src/main/java/org/scimat_plus/bibliometricwe/customermanager/service/ProjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/ArithmeticAggConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/ArithmeticAggConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/BetweenFilterConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/BetweenFilterConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/CreateUnitByUnitConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/CreateUnitByUnitConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/FilterPerFilterConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/FilterPerFilterConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/FilterWordTaskConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/FilterWordTaskConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/GreaterThanConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/GreaterThanConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/HIndexConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/HIndexConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/LoaderConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/LoaderConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/PivotTableConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/PivotTableConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/PrintCsvTaskConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/PrintCsvTaskConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/UnionTaskConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Configurer/UnionTaskConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/CsvFilter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/CsvFilter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/ArithmeticAggTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/ArithmeticAggTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/BetweenFilterTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/BetweenFilterTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/CreateUnitByUnitDatasetTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/CreateUnitByUnitDatasetTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/FilterPerFilterTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/FilterPerFilterTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/HIndexTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/HIndexTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/LoaderTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/Tasks/LoaderTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/scimat_plus/core/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/WorkflowManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/WorkflowManagerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/controller/WorkflowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/controller/WorkflowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/models/WorkflowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/models/WorkflowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/repository/WorkflowRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/java/org/scimat_plus/bibliometricwe/workflowmanager/repository/WorkflowRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkflowManager/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkflowManager/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2QhiHldu8KRERF8LUsXcGpo7uNU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.BibliometricToolbox [clean,install...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/34691/Desktop/TFG/BibliometricWE/WorkflowCore/out/artifacts/AuxiliarRepoTask_master_jar/AuxiliarRepoTask-master.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.27816093&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\34691\Desktop\TFG\BibliometricWE\BibliometricToolbox\src\main\java\org\scimat_plus\core\JSON" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.scimat_plus.core.Configurer" />
+      <recent name="org.scimat_plus.core" />
+      <recent name="org.scimat_plus.core.Tasks" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+      <command value="mvn clean install -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.scimat_plus.core.Main" />
+      <module name="BibliometricToolbox" />
+      <option name="VM_PARAMETERS" value="--add-exports java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.security.action=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.scimat_plus.core.Executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1fbc2d5-1028-419a-90ce-844f237ce81d" name="Changes" comment="" />
+      <created>1685812129181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685812129181</updated>
+      <workItem from="1685812130426" duration="6312000" />
+      <workItem from="1685820563646" duration="22568000" />
+      <workItem from="1687972888007" duration="2314000" />
+      <workItem from="1687976223529" duration="264000" />
+      <workItem from="1687976522375" duration="2272000" />
+      <workItem from="1688050068461" duration="30004000" />
+      <workItem from="1688817946790" duration="13819000" />
+      <workItem from="1689695401005" duration="12302000" />
+      <workItem from="1690485638482" duration="8713000" />
+      <workItem from="1690836266255" duration="1766000" />
+      <workItem from="1690916073702" duration="274000" />
+      <workItem from="1700074379082" duration="11024000" />
+      <workItem from="1700502501260" duration="1124000" />
+      <workItem from="1700748862230" duration="7015000" />
+      <workItem from="1700994493635" duration="7058000" />
+      <workItem from="1701103029880" duration="5355000" />
+      <workItem from="1701185736330" duration="17770000" />
+      <workItem from="1701354896869" duration="7734000" />
+      <workItem from="1701596129012" duration="2276000" />
+      <workItem from="1701788925063" duration="38000" />
+      <workItem from="1701858927548" duration="16518000" />
+      <workItem from="1702309558331" duration="599000" />
+      <workItem from="1702476905125" duration="162000" />
+      <workItem from="1702477555951" duration="3121000" />
+      <workItem from="1706035769125" duration="444000" />
+      <workItem from="1709228514421" duration="594000" />
+      <workItem from="1709987112581" duration="1151000" />
+      <workItem from="1710171329737" duration="3860000" />
+      <workItem from="1710350253636" duration="14428000" />
+      <workItem from="1710778050089" duration="445000" />
+      <workItem from="1710778528582" duration="1362000" />
+      <workItem from="1710783653482" duration="336000" />
+      <workItem from="1711122800538" duration="1093000" />
+      <workItem from="1711387226938" duration="539000" />
+      <workItem from="1712592150700" duration="10165000" />
+      <workItem from="1712750734425" duration="1168000" />
+      <workItem from="1713081033474" duration="5096000" />
+      <workItem from="1713461283909" duration="8000" />
+      <workItem from="1713461321451" duration="6000" />
+      <workItem from="1713516821017" duration="11122000" />
+      <workItem from="1714586606639" duration="1244000" />
+      <workItem from="1715867425996" duration="532000" />
+      <workItem from="1716306224247" duration="656000" />
+      <workItem from="1716621635099" duration="598000" />
+    </task>
+    <task id="LOCAL-00001" summary="SumAggTask, AverageAggTask, BetweenFilterTask, CreateUnitByUnitDatasetTask and GreaterThanTask">
+      <option name="closed" value="true" />
+      <created>1688586084234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688586084234</updated>
+    </task>
+    <task id="LOCAL-00002" summary="H-index, averageAgg">
+      <option name="closed" value="true" />
+      <created>1688897716547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688897716547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Problem with PrintTask fixed">
+      <option name="closed" value="true" />
+      <created>1688903255203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688903255203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Filter per Filter task returning arrays">
+      <option name="closed" value="true" />
+      <created>1689704476906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689704476906</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SumAggTask, AverageAggTask, BetweenFilterTask, CreateUnitByUnitDatasetTask and GreaterThanTask" />
+    <MESSAGE value="H-index, averageAgg" />
+    <MESSAGE value="Problem with PrintTask fixed" />
+    <MESSAGE value="Filter per Filter task returning arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter per Filter task returning arrays" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalAccessError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

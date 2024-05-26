@@ -1,0 +1,32 @@
+{
+  "ROOT": {
+    "l1": {
+      "task": "load",
+      "value": "src/main/java/org/scimat_plus/core/parsed_LIS_2003-2022.csv"
+    }
+  },
+  "BRANCH": {
+    "f1": {
+      "task": "betweenTask",
+      "params": {
+        "row": "Year",
+        "initial": "2015",
+        "final": "2016"
+      },
+      "args": {
+        "a": "l1"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "printCsv",
+      "params": {
+        "size": "300"
+      },
+      "args": {
+        "a": "f1"
+      }
+    }
+  }
+}

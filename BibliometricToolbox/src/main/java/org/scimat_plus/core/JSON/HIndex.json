@@ -1,0 +1,27 @@
+{
+  "ROOT": {
+    "l1": {
+      "task": "load",
+      "value": "src/main/java/org/scimat_plus/core/parsed_LIS_2003-2022.csv"
+    }
+  },
+  "BRANCH": {
+    "f1": {
+      "task": "hIndex",
+      "args": {
+        "a": "l1"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "printInt",
+      "params": {
+        "Description": "Indice H"
+      },
+      "args": {
+        "a": "f1"
+      }
+    }
+  }
+}

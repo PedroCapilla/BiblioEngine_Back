@@ -1,0 +1,180 @@
+{
+  "ROOT": {
+    "l1": {
+      "task": "load",
+      "value": "src/main/java/org/scimat_plus/core/parsed_LIS_2003-2022.csv"
+    }
+  },
+  "BRANCH": {
+    "t1": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "",
+        "type": "Count"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t2": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Citations",
+        "type": "Sum"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t3": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Citations",
+        "type": "Average"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t4": {
+      "task": "hIndex",
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t5": {
+      "task": "FilterPerFilter",
+      "params": {
+        "row1": "Authors",
+        "row2": "Journal"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t6": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Authors",
+        "type": "Count"
+      },
+      "args": {
+        "a": "t5"
+      }
+    },
+    "t7":{
+      "task": "FilterPerFilter",
+      "params": {
+        "row1": "Journal",
+        "row2": "Citations"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t8": {
+      "task": "ArithmeticAgg",
+      "params": {
+        "row": "Journal",
+        "type": "Count"
+      },
+      "args": {
+        "a": "t7"
+      }
+    },
+    "t9": {
+      "task": "FilterPerFilter",
+      "params": {
+        "row1": "Year",
+        "row2": "Title"
+      },
+      "args": {
+        "a": "l1"
+      }
+    },
+    "t10": {
+      "task": "FilterPerFilter",
+      "params": {
+        "row1": "Journal",
+        "row2": "Citations"
+      },
+      "args": {
+        "a": "l1"
+      }
+    }
+  },
+  "LEAF": {
+    "p1": {
+      "task": "printInt",
+      "params": {
+        "description": "Count"
+      },
+      "args": {
+        "a": "t1"
+      }
+    },
+    "p2": {
+      "task": "printInt",
+      "params": {
+        "description": "Sum"
+      },
+      "args": {
+        "a": "t2"
+      }
+    },
+    "p3": {
+      "task": "printInt",
+      "params": {
+        "description": "Average"
+      },
+      "args": {
+        "a": "t3"
+      }
+    },
+    "p4": {
+      "task": "printInt",
+      "params": {
+        "description": "HIndex"
+      },
+      "args": {
+        "a": "t4"
+      }
+    },
+    "p5": {
+      "task": "printInt",
+      "params": {
+        "description": "NumAuthors"
+      },
+      "args": {
+        "a": "t6"
+      }
+    },
+    "p6": {
+      "task": "printInt",
+      "params": {
+        "description": "NumPapers"
+      },
+      "args": {
+        "a": "t8"
+      }
+    },
+    "p7": {
+      "task": "printCsv",
+      "params": {
+        "size": "1000"
+      },
+      "args": {
+        "a": "t9"
+      }
+    },
+    "p8": {
+      "task": "printCsv",
+      "params": {
+        "size": "1000"
+      },
+      "args": {
+        "a": "t10"
+      }
+    }
+  }
+}
