@@ -1,0 +1,8 @@
+org\scimat_plus\bibliometricwe\workflowmanager\models\CustomerModel.class
+org\scimat_plus\bibliometricwe\workflowmanager\controller\CustomerController.class
+org\scimat_plus\bibliometricwe\workflowmanager\repository\CustomerRepository.class
+org\scimat_plus\bibliometricwe\workflowmanager\models\WorkflowModel.class
+org\scimat_plus\bibliometricwe\workflowmanager\repository\WorkflowRepository.class
+org\scimat_plus\bibliometricwe\workflowmanager\models\Mapper\WorkflowMapper.class
+org\scimat_plus\bibliometricwe\workflowmanager\WorkflowManagerApplication.class
+org\scimat_plus\bibliometricwe\workflowmanager\controller\WorkflowController.class
