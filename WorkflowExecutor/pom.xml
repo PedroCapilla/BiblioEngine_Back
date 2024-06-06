@@ -27,6 +27,12 @@
             <version>1.1.1</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.BibliometricToolBox</groupId>
+            <artifactId>BibliometricToolBox</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
     </dependencies>
 
 </project>
